@@ -168,7 +168,7 @@ The SST-2 (Stanford Sentiment Treebank) dataset was used for sentiment analysis,
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the AGPL License - see the LICENSE file for details.
 
 ## Acknowledgments
 
