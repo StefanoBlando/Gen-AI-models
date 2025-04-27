@@ -1,0 +1,62 @@
+# Model weights and checkpoints
+models/*
+!models/README.md
+!models/.gitkeep
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary output files
+peft_output/
+temp/
+tmp/
+
+# Large results files
+results/figures/*
+!results/figures/README.md
+!results/figures/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.zip
+*.tar.gz
+
+# Exception for test data if needed
+!src/test/data/*.csv
+
+# Byte-compiled files
+*.pyc
